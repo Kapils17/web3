@@ -1,0 +1,18 @@
+---
+id: 0
+name: Testnet deployment
+network: testnet
+stacks-node: "https://api.testnet.hiro.so"
+bitcoin-node: "http://blockstack:blockstacksystem@bitcoind.testnet.stacks.co:18332"
+plan:
+  batches:
+    - id: 0
+      transactions:
+        - contract-publish:
+            contract-name: charity_distributionDAO
+            expected-sender: ST1V2W7H3QRQ01T0FYEV0V1CZPPMGFCD9JTKAC25F
+            cost: 41110
+            path: "contracts\\charity_distributionDAO.clar"
+            anchor-block-only: true
+            clarity-version: 3
+      epoch: "3.2"
