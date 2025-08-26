@@ -1,0 +1,8 @@
+[network]
+name = "mainnet"
+stacks_node_rpc_address = "https://api.hiro.so"
+deployment_fee_rate = 10
+
+[accounts.deployer]
+mnemonic = "hockey orphan harsh solar mushroom today cactus fold sorry enter around hawk raven
+ flip between resource solution sick seminar pause drift predict saddle mean"
